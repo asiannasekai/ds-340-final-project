@@ -1,0 +1,209 @@
+{
+  "zones": [
+    {
+      "name": "crossfader",
+      "zone_type": "fader",
+      "bounds": [[0.15, 0.25], [0.25, 0.30]],
+      "midi_channel": 1,
+      "midi_cc": 8,
+      "min_value": 0.0,
+      "max_value": 127.0,
+      "orientation": "horizontal",
+      "sensitivity": 1.0,
+      "enabled": true
+    },
+    {
+      "name": "volume_a",
+      "zone_type": "fader",
+      "bounds": [[0.05, 0.05], [0.10, 0.20]],
+      "midi_channel": 1,
+      "midi_cc": 7,
+      "min_value": 0.0,
+      "max_value": 127.0,
+      "orientation": "vertical",
+      "sensitivity": 1.0,
+      "enabled": true
+    },
+    {
+      "name": "volume_b",
+      "zone_type": "fader",
+      "bounds": [[0.30, 0.05], [0.35, 0.20]],
+      "midi_channel": 2,
+      "midi_cc": 7,
+      "min_value": 0.0,
+      "max_value": 127.0,
+      "orientation": "vertical",
+      "sensitivity": 1.0,
+      "enabled": true
+    },
+    {
+      "name": "play_a",
+      "zone_type": "button",
+      "bounds": [[0.08, 0.22], [0.12, 0.26]],
+      "midi_channel": 1,
+      "midi_note": 60,
+      "min_value": 0.0,
+      "max_value": 127.0,
+      "orientation": "horizontal",
+      "sensitivity": 1.0,
+      "enabled": true
+    },
+    {
+      "name": "play_b",
+      "zone_type": "button",
+      "bounds": [[0.28, 0.22], [0.32, 0.26]],
+      "midi_channel": 2,
+      "midi_note": 60,
+      "min_value": 0.0,
+      "max_value": 127.0,
+      "orientation": "horizontal",
+      "sensitivity": 1.0,
+      "enabled": true
+    },
+    {
+      "name": "cue_a",
+      "zone_type": "button",
+      "bounds": [[0.13, 0.22], [0.17, 0.26]],
+      "midi_channel": 1,
+      "midi_note": 61,
+      "min_value": 0.0,
+      "max_value": 127.0,
+      "orientation": "horizontal",
+      "sensitivity": 1.0,
+      "enabled": true
+    },
+    {
+      "name": "cue_b",
+      "zone_type": "button",
+      "bounds": [[0.23, 0.22], [0.27, 0.26]],
+      "midi_channel": 2,
+      "midi_note": 61,
+      "min_value": 0.0,
+      "max_value": 127.0,
+      "orientation": "horizontal",
+      "sensitivity": 1.0,
+      "enabled": true
+    },
+    {
+      "name": "filter_a",
+      "zone_type": "knob",
+      "bounds": [[0.02, 0.02], [0.08, 0.08]],
+      "midi_channel": 1,
+      "midi_cc": 74,
+      "min_value": 0.0,
+      "max_value": 127.0,
+      "orientation": "radial",
+      "sensitivity": 1.0,
+      "enabled": true
+    },
+    {
+      "name": "filter_b",
+      "zone_type": "knob",
+      "bounds": [[0.32, 0.02], [0.38, 0.08]],
+      "midi_channel": 2,
+      "midi_cc": 74,
+      "min_value": 0.0,
+      "max_value": 127.0,
+      "orientation": "radial",
+      "sensitivity": 1.0,
+      "enabled": true
+    },
+    {
+      "name": "eq_high_a",
+      "zone_type": "knob",
+      "bounds": [[0.02, 0.10], [0.06, 0.14]],
+      "midi_channel": 1,
+      "midi_cc": 16,
+      "min_value": 0.0,
+      "max_value": 127.0,
+      "orientation": "radial",
+      "sensitivity": 1.0,
+      "enabled": true
+    },
+    {
+      "name": "eq_mid_a",
+      "zone_type": "knob",
+      "bounds": [[0.02, 0.15], [0.06, 0.19]],
+      "midi_channel": 1,
+      "midi_cc": 17,
+      "min_value": 0.0,
+      "max_value": 127.0,
+      "orientation": "radial",
+      "sensitivity": 1.0,
+      "enabled": true
+    },
+    {
+      "name": "eq_low_a",
+      "zone_type": "knob", 
+      "bounds": [[0.02, 0.20], [0.06, 0.24]],
+      "midi_channel": 1,
+      "midi_cc": 18,
+      "min_value": 0.0,
+      "max_value": 127.0,
+      "orientation": "radial",
+      "sensitivity": 1.0,
+      "enabled": true
+    },
+    {
+      "name": "eq_high_b",
+      "zone_type": "knob",
+      "bounds": [[0.34, 0.10], [0.38, 0.14]],
+      "midi_channel": 2,
+      "midi_cc": 16,
+      "min_value": 0.0,
+      "max_value": 127.0,
+      "orientation": "radial",
+      "sensitivity": 1.0,
+      "enabled": true
+    },
+    {
+      "name": "eq_mid_b",
+      "zone_type": "knob",
+      "bounds": [[0.34, 0.15], [0.38, 0.19]],
+      "midi_channel": 2,
+      "midi_cc": 17,
+      "min_value": 0.0,
+      "max_value": 127.0,
+      "orientation": "radial",
+      "sensitivity": 1.0,
+      "enabled": true
+    },
+    {
+      "name": "eq_low_b",
+      "zone_type": "knob",
+      "bounds": [[0.34, 0.20], [0.38, 0.24]],
+      "midi_channel": 2,
+      "midi_cc": 18,
+      "min_value": 0.0,
+      "max_value": 127.0,
+      "orientation": "radial",
+      "sensitivity": 1.0,
+      "enabled": true
+    },
+    {
+      "name": "xy_pad",
+      "zone_type": "xy_pad",
+      "bounds": [[0.15, 0.10], [0.25, 0.20]],
+      "midi_channel": 1,
+      "midi_cc": 20,
+      "min_value": 0.0,
+      "max_value": 127.0,
+      "orientation": "horizontal",
+      "sensitivity": 1.0,
+      "enabled": true,
+      "additional_data": {
+        "y_cc": 21
+      }
+    }
+  ],
+  "parameters": {
+    "tap_max_distance": 0.02,
+    "tap_max_duration": 0.5,
+    "tap_min_duration": 0.05,
+    "drag_min_distance": 0.01,
+    "drag_min_duration": 0.1,
+    "rotate_min_angle": 15.0,
+    "rotate_center_radius": 0.03,
+    "hold_min_duration": 1.0
+  }
+}

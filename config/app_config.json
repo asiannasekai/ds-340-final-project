@@ -1,0 +1,75 @@
+{
+  "camera": {
+    "device_id": 0,
+    "width": 1280,
+    "height": 720,
+    "fps": 30
+  },
+  "hand_tracking": {
+    "max_hands": 2,
+    "detection_confidence": 0.7,
+    "tracking_confidence": 0.5,
+    "model_complexity": 1
+  },
+  "calibration": {
+    "auto_save_path": "config/calibration.json",
+    "marker_size": 0.05,
+    "enable_dj_board_detection": true,
+    "dj_detection_config_path": "config/dj_board_detection.json",
+    "board_corners": [
+      [0.0, 0.0],
+      [0.4, 0.0],
+      [0.4, 0.3],
+      [0.0, 0.3]
+    ]
+  },
+  "gestures": {
+    "config_path": "config/zones.json",
+    "parameters": {
+      "tap_max_distance": 0.02,
+      "tap_max_duration": 0.5,
+      "tap_min_duration": 0.05,
+      "drag_min_distance": 0.01,
+      "drag_min_duration": 0.1,
+      "rotate_min_angle": 15.0,
+      "rotate_center_radius": 0.03,
+      "hold_min_duration": 1.0
+    }
+  },
+  "smoothing": {
+    "method": "EMA",
+    "alpha": 0.3,
+    "window_size": 5,
+    "hysteresis_threshold": 0.01,
+    "min_change": 0.001,
+    "max_change_rate": 1.0,
+    "enabled": true
+  },
+  "midi": {
+    "port_name": "DJ Controller",
+    "config_path": "config/midi_mappings.json",
+    "max_messages_per_frame": 10,
+    "min_change_threshold": 1
+  },
+  "ui": {
+    "show_debug": true,
+    "show_zones": true,
+    "show_hands": true,
+    "show_overlay": true,
+    "target_fps": 30,
+    "window_size": [1280, 720]
+  },
+  "logging": {
+    "enabled": false,
+    "output_path": "data/session_log.csv",
+    "log_level": "INFO",
+    "log_hand_data": true,
+    "log_gesture_events": true,
+    "log_midi_messages": true
+  },
+  "performance": {
+    "target_latency_ms": 70,
+    "enable_profiling": false,
+    "profile_output": "data/performance_profile.json"
+  }
+}

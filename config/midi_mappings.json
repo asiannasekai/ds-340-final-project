@@ -1,0 +1,194 @@
+{
+  "midi_mappings": [
+    {
+      "control_name": "crossfader",
+      "message_type": "control_change",
+      "channel": 0,
+      "controller": 8,
+      "min_value": 0,
+      "max_value": 127,
+      "curve": "linear",
+      "enabled": true
+    },
+    {
+      "control_name": "volume_a",
+      "message_type": "control_change",
+      "channel": 0,
+      "controller": 7,
+      "min_value": 0,
+      "max_value": 127,
+      "curve": "linear",
+      "enabled": true
+    },
+    {
+      "control_name": "volume_b",
+      "message_type": "control_change",
+      "channel": 1,
+      "controller": 7,
+      "min_value": 0,
+      "max_value": 127,
+      "curve": "linear",
+      "enabled": true
+    },
+    {
+      "control_name": "play_a",
+      "message_type": "note_on",
+      "channel": 0,
+      "controller": 60,
+      "min_value": 0,
+      "max_value": 127,
+      "curve": "linear",
+      "enabled": true
+    },
+    {
+      "control_name": "play_b",
+      "message_type": "note_on",
+      "channel": 1,
+      "controller": 60,
+      "min_value": 0,
+      "max_value": 127,
+      "curve": "linear",
+      "enabled": true
+    },
+    {
+      "control_name": "cue_a",
+      "message_type": "note_on",
+      "channel": 0,
+      "controller": 61,
+      "min_value": 0,
+      "max_value": 127,
+      "curve": "linear",
+      "enabled": true
+    },
+    {
+      "control_name": "cue_b",
+      "message_type": "note_on",
+      "channel": 1,
+      "controller": 61,
+      "min_value": 0,
+      "max_value": 127,
+      "curve": "linear",
+      "enabled": true
+    },
+    {
+      "control_name": "filter_a",
+      "message_type": "control_change",
+      "channel": 0,
+      "controller": 74,
+      "min_value": 0,
+      "max_value": 127,
+      "curve": "linear",
+      "enabled": true
+    },
+    {
+      "control_name": "filter_b",
+      "message_type": "control_change",
+      "channel": 1,
+      "controller": 74,
+      "min_value": 0,
+      "max_value": 127,
+      "curve": "linear",
+      "enabled": true
+    },
+    {
+      "control_name": "eq_high_a",
+      "message_type": "control_change",
+      "channel": 0,
+      "controller": 16,
+      "min_value": 0,
+      "max_value": 127,
+      "curve": "linear",
+      "enabled": true
+    },
+    {
+      "control_name": "eq_mid_a",
+      "message_type": "control_change",
+      "channel": 0,
+      "controller": 17,
+      "min_value": 0,
+      "max_value": 127,
+      "curve": "linear",
+      "enabled": true
+    },
+    {
+      "control_name": "eq_low_a",
+      "message_type": "control_change",
+      "channel": 0,
+      "controller": 18,
+      "min_value": 0,
+      "max_value": 127,
+      "curve": "linear",
+      "enabled": true
+    },
+    {
+      "control_name": "eq_high_b",
+      "message_type": "control_change",
+      "channel": 1,
+      "controller": 16,
+      "min_value": 0,
+      "max_value": 127,
+      "curve": "linear",
+      "enabled": true
+    },
+    {
+      "control_name": "eq_mid_b",
+      "message_type": "control_change",
+      "channel": 1,
+      "controller": 17,
+      "min_value": 0,
+      "max_value": 127,
+      "curve": "linear",
+      "enabled": true
+    },
+    {
+      "control_name": "eq_low_b",
+      "message_type": "control_change",
+      "channel": 1,
+      "controller": 18,
+      "min_value": 0,
+      "max_value": 127,
+      "curve": "linear",
+      "enabled": true
+    },
+    {
+      "control_name": "xy_pad_x",
+      "message_type": "control_change",
+      "channel": 0,
+      "controller": 20,
+      "min_value": 0,
+      "max_value": 127,
+      "curve": "linear",
+      "enabled": true
+    },
+    {
+      "control_name": "xy_pad_y",
+      "message_type": "control_change",
+      "channel": 0,
+      "controller": 21,
+      "min_value": 0,
+      "max_value": 127,
+      "curve": "linear",
+      "enabled": true
+    },
+    {
+      "control_name": "pitch_a",
+      "message_type": "pitch_bend",
+      "channel": 0,
+      "controller": null,
+      "min_value": 0,
+      "max_value": 16383,
+      "curve": "linear",
+      "enabled": true
+    },
+    {
+      "control_name": "pitch_b",
+      "message_type": "pitch_bend",
+      "channel": 1,
+      "controller": null,
+      "min_value": 0,
+      "max_value": 16383,
+      "curve": "linear",
+      "enabled": true
+    }
+  ]
+}
